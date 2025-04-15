@@ -1,6 +1,7 @@
-# 🖥️ Primeiro Projeto de Site Responsivo
+# 🖥️ Site Institucional Responsivo
 
-Este é um projeto de site institucional focado na apresentação de produtos personalizados, como canecas criativas. Desenvolvido com HTML5, CSS3 e Bootstrap 5, o site possui layout responsivo, navegação fluida e múltiplas seções como "Sobre Nós", "Nosso Time", "Produtos" e "Home".
+Este é um projeto de site institucional focado na apresentação de produtos personalizados, como canecas criativas. 
+Desenvolvido com HTML5, CSS3 e Bootstrap 5, o site possui layout responsivo, navegação fluida e múltiplas seções como "Sobre Nós", "Nosso Time", "Produtos", "Checkout" e "Home".
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -13,9 +14,9 @@ Este é um projeto de site institucional focado na apresentação de produtos pe
 ## 📱 Funcionalidades
 
 - Layout 100% responsivo
-- Barra de navegação com menu colapsável para mobile
+- Barra de navegação 
 - Páginas separadas e bem estruturadas
-- Seções de equipe, produtos, informações institucionais e home.
+- Seções de equipe, produtos, informações institucionais, checkout e home.
 
 ## 🎯 Objetivo
 
