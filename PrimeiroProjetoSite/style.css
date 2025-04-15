@@ -1,0 +1,27 @@
+body{
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: rgb(5, 5, 5);
+    margin: 0;
+}
+h2{
+    font-size: 27px;
+    color: black;
+}
+figcaption{
+    color: rgb(8, 8, 8);
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.carousel-caption h5{
+    font-size: 80px;
+    color: rgb(214, 147, 216);
+    text-shadow: 2px 2px 2px;
+    text-shadow: 2px 2px 2px rgb(7, 7, 7);
+}
+.navbar-brand {
+    color: rgb(214, 147, 216);
+}
+

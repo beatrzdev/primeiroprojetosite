@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Canecas Personalizadas</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Canecas Personalizadas</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosso Time</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="NossosProdutos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                  </li>
+                   </ul>
+                </div>
+            </div>
+          </nav>
+
+
+
+
+          <section class="container-fluid bg-danger p-2">
+            <h2 class="text-center">Faça seu orçamento!</h2>
+            <form method="get" action="">
+                <fieldset>
+                <legend>Dados Pessoais</legend>
+               
+                <div class="mb-3">
+                    <label class="form-label" for="nome" id="nome">Nome</label>
+                    <input type="text" class="form-control" name="name">
+                </div>
+                
+                <div class="mb-3">
+                <label class="form-label" for="email" id="email">Email</label>
+                <input type="email" class="form-control" placeholder="seuemail@yxn.br" required name="Email">
+                </div>
+                
+                <div class="mb-3">
+                <label class="form-label" for="DataCompra" id="DataCompra">Data de Compra</label>
+                <input type="date" class="form-control" name="DataCompra">
+                </div>
+    
+                <div class="mb-3">
+               <label class="form-label" for="DataChega" id="DataChega">Data de Chegada</label>
+               <input type="date" class="form-control" name="DataChega">
+                </div>
+                
+                <div class="mb-3">
+                <label class="form-label" for="QtdCanecas" id="QtdCanecas">Quantidade de canecas</label>
+               <input type="number" class="form-control" name="QtdCanecas">
+                </div>
+                
+                <label>Senha</label><br>
+                <input type="password" name="senha"><br><br>
+             </form>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Quais serviços gostaria de incluir no pedido?</legend>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="Entrega" value="Entrega" id="Entrega">
+                <label class="form-check-label" for="Entrega">
+                    Entrega
+                </label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="CaixaPresente" value="Caixa de Presente" id="Entrega">
+                <label class="form-check-label" for="CaixaPresente">
+                    Caixa de Presente
+                </label>
+            </div>
+        </fieldset>
+        <button class="btn btn-primary">Salvar</button>
+        
+    </section>
+        <hr>
+        <footer class="container-fluid bg-danger">
+            <p>
+                Desenvolvido por Ana Beatriz.
+            </p>
+           </footer>
