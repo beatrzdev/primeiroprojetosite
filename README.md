@@ -34,4 +34,4 @@ Este projeto foi criado como prática inicial para consolidar conhecimentos em d
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/beatrzdev/primeiroprojetosite
